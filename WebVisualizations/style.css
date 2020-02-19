@@ -1,0 +1,108 @@
+/* navbar title text formatting */
+#lattitude {
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    background: #FF6C6C;
+    padding: 0.5rem 0.5rem;
+}
+
+/* navbar dropdown click color */
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #EAEBC8;
+}
+
+/* stretches page content to screen */
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* header text formatting */
+.header-text {
+    color: #FF6C6C;
+    font-family: Georgia, serif;
+} 
+
+/* floats image inside summary text box on index page */
+#img-float {
+    float: left;
+    width: 300px;
+}
+
+/* shrinks images inside cols */
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* sets navbar and jumbotron container bg color */
+.jumbotron, .navbar-light {
+    background-color: #FFFFFF;
+}
+
+/* reduces bootsrap default padding */
+.jumbotron {
+    padding: 3rem 2rem;
+}
+
+/* puts border around active viz sidebar image */
+.hover-bord:hover, .hover-bord:active { 
+    border-width: 2px; 
+    border-color: #FF6C6C;
+    border-style: solid;
+}
+
+/* set body and navbar item click color to same */
+body, .nav-item:hover, 
+.table .thead-light th {
+    background-color: #EAEBC8;
+}
+
+/* data table formatting */
+.table-striped tbody tr:hover {
+    background-color: #E4FF91;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+      background-color: #F7F8CD;
+  }
+
+/* footer */
+html {
+    position: relative; 
+    min-height: 100%;
+}
+
+.content-wrap {
+    margin-bottom: 50px;
+} 
+
+.footer-thin, .footer-thick {
+    width: 100%;
+}
+
+.footer-thin {
+    position: relative;
+    height: 10px;
+    background:#CCFF33;
+}
+
+.footer-thick {
+    bottom: 0;
+    position: absolute;
+    height: 40px;
+    background:#897F3B;
+}
+
+/*change color of navbar when links switch to dropdown menu*/
+@media (max-width: 768px) {
+    .md-navbar-color {
+        background: #FF6C6C;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
